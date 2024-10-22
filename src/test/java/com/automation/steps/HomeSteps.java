@@ -3,8 +3,6 @@ package com.automation.steps;
 import com.automation.pages.HomePage;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
 public class HomeSteps {
@@ -28,6 +26,11 @@ public class HomeSteps {
     public void user_clicks_on_admin_link() {
          homePage.clickAdminLink();
     }
+    @When("user click on recruitment link")
+    public void user_click_on_recruitment_link() {
+       homePage.clickOnRecruitmentLink();
+    }
+
 
 
 

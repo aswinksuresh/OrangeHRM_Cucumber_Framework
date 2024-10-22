@@ -1,4 +1,5 @@
 Feature: Verify user can create new user
+
   Scenario:
     Given user open website
     Then verify that user is on login page
